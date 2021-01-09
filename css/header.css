@@ -1,0 +1,22 @@
+.header {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	border-bottom: 1px solid #A1A1A1;
+}
+.header__list {
+  display: flex;
+  justify-content: flex-end;
+}
+.header__item {
+	margin-left: 40px;
+	padding: 40px 0;
+}
+
+.header__item--active {
+  border-bottom: 2px solid white;
+}
+
+.header__link {
+  color: white;
+}

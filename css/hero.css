@@ -1,0 +1,38 @@
+.hero {
+  position: relative;
+  background: url('../images/hero-bg.png') no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.hero__content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.hero__suptitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.hero__title {
+  margin: 20px 0 50px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+}
+
+.hero__link {
+  padding: 12px 36px;
+  color: white;
+  background-color: #4985ff;
+  border-radius: 30px;
+}
